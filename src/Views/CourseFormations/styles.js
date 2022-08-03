@@ -14,7 +14,7 @@ export const Group = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 15%;
+    gap: 13%;
   }
 `;
 
