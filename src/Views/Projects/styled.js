@@ -27,7 +27,15 @@ export const SubGroup = styled.span`
   flex-wrap: wrap;
   gap: 25px;
 
+  @media (${medias.small}) {
+    margin-top: 30px; 
+  }
+
   @media (${medias.medium}) {
     margin-top: 40px; 
+  }
+
+  @media (${medias.extraLarge}) {
+    margin-top: 50px; 
   }
 `;

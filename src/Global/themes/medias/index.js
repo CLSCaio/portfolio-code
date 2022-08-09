@@ -3,5 +3,5 @@ export const medias = {
   small: 'min-width: 650px',
   medium: 'min-width: 900px',
   large: 'min-width: 1200px',
-  extraLarge: 'min-width: 1800px',
+  extraLarge: 'min-width: 1600px',
 };
