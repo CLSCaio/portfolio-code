@@ -11,8 +11,10 @@ export const Bar = ({ menu, openMenu }) => (
     properties={{...CT.properties}}
   >
     <S.IMG src={photo} alt="Minha foto" type="image/jpg"/>
-    {!menu && <S.Bars onClick={() => openMenu(menu === !menu ? menu : !menu)} /> }
-    {menu && <S.Close onClick={() => openMenu(menu === !menu ? menu : !menu)} /> }
+    {!menu 
+      ? <S.Bars onClick={() => openMenu(!menu)} />
+      : <S.Close onClick={() => openMenu(!menu)} /> 
+    }
 
     <p>Caio Sousa</p>
   </C.Container>
