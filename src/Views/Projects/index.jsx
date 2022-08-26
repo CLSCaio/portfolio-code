@@ -20,6 +20,8 @@ export const Projects = () => {
             if (id === 1) return setProjects(CT.TMDB);
             if (id === 2) return setProjects(CT.calculator);
             if (id === 3) return setProjects(CT.userInterface);
+            if (id === 4) return setProjects(CT.snake_game);
+            if (id === 5) return setProjects(CT.storybook);
            
         } finally {
             setProject(CT.pokedex[id]);
