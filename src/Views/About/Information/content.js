@@ -1,6 +1,6 @@
 import * as A from '../../../Assets';
 
-export const curriculo = 'https://www.canva.com/design/DAFIImIDL7M/lTIRXA1Q9pD3hgKTzl_a8A/view?utm_content=DAFIImIDL7M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'
+export const curriculo = 'https://www.canva.com/design/DAFIImIDL7M/lTIRXA1Q9pD3hgKTzl_a8A/watch?utm_content=DAFIImIDL7M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'
 
 export const properties = {
   styles: {
